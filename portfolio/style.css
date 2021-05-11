@@ -118,6 +118,14 @@ section {
   align-items: center;
   padding-bottom: 20px;
 }
+
+section:nth-child(2n) {
+  background-color: #d8e3e7;
+}
+
+section:nth-child(2n + 1) {
+  background-color: white;
+}
 .section-heading {
   width: auto;
   padding: 20px 10px 10px;
@@ -160,4 +168,49 @@ section {
 #about-para h1 {
   text-align: center;
   font-size: 40px;
+}
+
+/* Projct*/
+
+#project {
+  padding-bottom: 60px;
+}
+.project-div {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px;
+}
+.project-item {
+  width: 300px;
+  height: auto;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px 60px 10px 10px;
+  padding-bottom: 25px;
+  text-align: center;
+  align-items: center;
+  text-transform: capitalize;
+}
+.project-item img {
+  width: 250px;
+  height: auto;
+}
+.project-item p {
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+.btn {
+  background-color: #325288;
+  color: white;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.btn:hover {
+  background-color: #04009a;
+  color: white;
 }
